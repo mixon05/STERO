@@ -1,0 +1,2726 @@
+Poniżej znajduje się cześć raportu wygenerowanego przy użyciu ros2 doctor --report
+
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : base_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : base_laser
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : base_sonar_01_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : base_sonar_02_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : base_sonar_03_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : head_front_camera_frame_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : gazebo_ros_odometry
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : gazebo_ros2_control
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : ft_sensor_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : gripper_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : torso_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : head_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : joint_state_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : arm_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : imu_sensor_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : mobile_base_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : controller_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : local_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : transform_listener_impl_5d72919f51e0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : smoother_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : transform_listener_impl_6220adb64560
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : planner_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : global_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : transform_listener_impl_5b934de39e20
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : behavior_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : transform_listener_impl_602fe20d2820
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : bt_navigator
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : bt_navigator_navigate_to_pose_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : bt_navigator_navigate_through_poses_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : waypoint_follower
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : velocity_smoother
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : lifecycle_manager_navigation
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : map_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : amcl
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : lifecycle_manager_localization
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : rviz
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : transform_listener_impl_6329e36d5bd0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : rviz_navigation_dialog_action_client
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : transform_listener_impl_6329e3caddc0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : move_group
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : move_group_private_105808675272352
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : transform_listener_impl_603b8080fae0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : transform_listener_impl_603b810a4ce0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_navigation
+subscriber node         : moveit_simple_controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : play_motion2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : _move_group_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : twist_mux
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : twist_marker
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : base_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : base_laser
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : base_sonar_01_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : base_sonar_02_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : base_sonar_03_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : head_front_camera_frame_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : gazebo_ros_odometry
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : gazebo_ros2_control
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : ft_sensor_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : gripper_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : torso_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : head_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : joint_state_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : arm_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : imu_sensor_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : mobile_base_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : controller_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : local_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : transform_listener_impl_5d72919f51e0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : smoother_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : transform_listener_impl_6220adb64560
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : planner_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : global_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : transform_listener_impl_5b934de39e20
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : behavior_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : transform_listener_impl_602fe20d2820
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : bt_navigator
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : bt_navigator_navigate_to_pose_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : bt_navigator_navigate_through_poses_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : waypoint_follower
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : velocity_smoother
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : lifecycle_manager_navigation
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : map_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : amcl
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : lifecycle_manager_localization
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : rviz
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : transform_listener_impl_6329e36d5bd0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : rviz_navigation_dialog_action_client
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : transform_listener_impl_6329e3caddc0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : move_group
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : move_group_private_105808675272352
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : transform_listener_impl_603b8080fae0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : transform_listener_impl_603b810a4ce0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : map_server
+subscriber node         : moveit_simple_controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : play_motion2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : _move_group_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : twist_mux
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : twist_marker
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : base_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : base_laser
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : base_sonar_01_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : base_sonar_02_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : base_sonar_03_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : head_front_camera_frame_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : gazebo_ros_odometry
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : gazebo_ros2_control
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : ft_sensor_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : gripper_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : torso_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : head_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : joint_state_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : arm_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : imu_sensor_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : mobile_base_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : controller_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : local_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : transform_listener_impl_5d72919f51e0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : smoother_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : transform_listener_impl_6220adb64560
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : planner_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : global_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : transform_listener_impl_5b934de39e20
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : behavior_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : transform_listener_impl_602fe20d2820
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : bt_navigator
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : bt_navigator_navigate_to_pose_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : bt_navigator_navigate_through_poses_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : waypoint_follower
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : velocity_smoother
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : lifecycle_manager_navigation
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : map_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : amcl
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : lifecycle_manager_localization
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : rviz
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : transform_listener_impl_6329e36d5bd0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : rviz_navigation_dialog_action_client
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : transform_listener_impl_6329e3caddc0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : move_group
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : move_group_private_105808675272352
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : transform_listener_impl_603b8080fae0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : transform_listener_impl_603b810a4ce0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : amcl
+subscriber node         : moveit_simple_controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : play_motion2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : _move_group_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : twist_mux
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : twist_marker
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : base_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : base_laser
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : base_sonar_01_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : base_sonar_02_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : base_sonar_03_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : head_front_camera_frame_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : gazebo_ros_odometry
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : gazebo_ros2_control
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : ft_sensor_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : gripper_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : torso_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : head_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : joint_state_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : arm_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : imu_sensor_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : mobile_base_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : controller_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : local_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : transform_listener_impl_5d72919f51e0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : smoother_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : transform_listener_impl_6220adb64560
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : planner_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : global_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : transform_listener_impl_5b934de39e20
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : behavior_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : transform_listener_impl_602fe20d2820
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : bt_navigator
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : bt_navigator_navigate_to_pose_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : bt_navigator_navigate_through_poses_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : waypoint_follower
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : velocity_smoother
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : lifecycle_manager_navigation
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : map_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : amcl
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : lifecycle_manager_localization
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : rviz
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : transform_listener_impl_6329e36d5bd0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : rviz_navigation_dialog_action_client
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : transform_listener_impl_6329e3caddc0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : move_group
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : move_group_private_105808675272352
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : transform_listener_impl_603b8080fae0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : transform_listener_impl_603b810a4ce0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : lifecycle_manager_localization
+subscriber node         : moveit_simple_controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : play_motion2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : _move_group_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : twist_mux
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : twist_marker
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : base_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : base_laser
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : base_sonar_01_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : base_sonar_02_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : base_sonar_03_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : head_front_camera_frame_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : gazebo_ros_odometry
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : gazebo_ros2_control
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : ft_sensor_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : gripper_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : torso_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : head_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : joint_state_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : arm_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : imu_sensor_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : mobile_base_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : controller_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : local_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : transform_listener_impl_5d72919f51e0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : smoother_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : transform_listener_impl_6220adb64560
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : planner_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : global_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : transform_listener_impl_5b934de39e20
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : behavior_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : transform_listener_impl_602fe20d2820
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : bt_navigator
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : bt_navigator_navigate_to_pose_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : bt_navigator_navigate_through_poses_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : waypoint_follower
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : velocity_smoother
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : lifecycle_manager_navigation
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : map_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : amcl
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : lifecycle_manager_localization
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : rviz
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : transform_listener_impl_6329e36d5bd0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : rviz_navigation_dialog_action_client
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : transform_listener_impl_6329e3caddc0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : move_group
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : move_group_private_105808675272352
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : transform_listener_impl_603b8080fae0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : transform_listener_impl_603b810a4ce0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz
+subscriber node         : moveit_simple_controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : play_motion2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : _move_group_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : twist_mux
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : twist_marker
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : base_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : base_laser
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : base_sonar_01_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : base_sonar_02_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : base_sonar_03_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : head_front_camera_frame_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : gazebo_ros_odometry
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : gazebo_ros2_control
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : ft_sensor_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : gripper_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : torso_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : head_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : joint_state_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : arm_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : imu_sensor_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : mobile_base_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : controller_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : local_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : transform_listener_impl_5d72919f51e0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : smoother_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : transform_listener_impl_6220adb64560
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : planner_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : global_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : transform_listener_impl_5b934de39e20
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : behavior_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : transform_listener_impl_602fe20d2820
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : bt_navigator
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : bt_navigator_navigate_to_pose_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : bt_navigator_navigate_through_poses_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : waypoint_follower
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : velocity_smoother
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : lifecycle_manager_navigation
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : map_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : amcl
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : lifecycle_manager_localization
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : rviz
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : transform_listener_impl_6329e36d5bd0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : rviz_navigation_dialog_action_client
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : transform_listener_impl_6329e3caddc0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : move_group
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : move_group_private_105808675272352
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : transform_listener_impl_603b8080fae0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : transform_listener_impl_603b810a4ce0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : moveit_simple_controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : play_motion2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : _move_group_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : twist_mux
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : twist_marker
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : base_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : base_laser
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : base_sonar_01_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : base_sonar_02_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : base_sonar_03_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : head_front_camera_frame_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : gazebo_ros_odometry
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : gazebo_ros2_control
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : ft_sensor_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : gripper_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : torso_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : head_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : joint_state_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : arm_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : imu_sensor_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : mobile_base_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : controller_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : local_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : transform_listener_impl_5d72919f51e0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : smoother_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : transform_listener_impl_6220adb64560
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : planner_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : global_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : transform_listener_impl_5b934de39e20
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : behavior_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : transform_listener_impl_602fe20d2820
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : bt_navigator
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : bt_navigator_navigate_to_pose_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : bt_navigator_navigate_through_poses_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : waypoint_follower
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : velocity_smoother
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : lifecycle_manager_navigation
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : map_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : amcl
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : lifecycle_manager_localization
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : rviz
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : transform_listener_impl_6329e36d5bd0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : rviz_navigation_dialog_action_client
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : transform_listener_impl_6329e3caddc0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : move_group
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : move_group_private_105808675272352
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : transform_listener_impl_603b8080fae0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : transform_listener_impl_603b810a4ce0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group
+subscriber node         : moveit_simple_controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : play_motion2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : _move_group_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : twist_mux
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : twist_marker
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : base_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : base_laser
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : base_sonar_01_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : base_sonar_02_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : base_sonar_03_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : head_front_camera_frame_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : gazebo_ros_odometry
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : gazebo_ros2_control
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : ft_sensor_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : gripper_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : torso_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : head_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : joint_state_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : arm_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : imu_sensor_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : mobile_base_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : controller_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : local_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : transform_listener_impl_5d72919f51e0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : smoother_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : transform_listener_impl_6220adb64560
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : planner_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : global_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : transform_listener_impl_5b934de39e20
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : behavior_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : transform_listener_impl_602fe20d2820
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : bt_navigator
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : bt_navigator_navigate_to_pose_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : bt_navigator_navigate_through_poses_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : waypoint_follower
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : velocity_smoother
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : lifecycle_manager_navigation
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : map_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : amcl
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : lifecycle_manager_localization
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : rviz
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : transform_listener_impl_6329e36d5bd0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : rviz_navigation_dialog_action_client
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : transform_listener_impl_6329e3caddc0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : move_group
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : move_group_private_105808675272352
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : transform_listener_impl_603b8080fae0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : transform_listener_impl_603b810a4ce0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : move_group_private_105808675272352
+subscriber node         : moveit_simple_controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : play_motion2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : _move_group_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : twist_mux
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : twist_marker
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : base_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : base_laser
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : base_sonar_01_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : base_sonar_02_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : base_sonar_03_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : head_front_camera_frame_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : gazebo_ros_odometry
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : gazebo_ros2_control
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : ft_sensor_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : gripper_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : torso_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : head_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : joint_state_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : arm_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : imu_sensor_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : mobile_base_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : controller_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : local_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : transform_listener_impl_5d72919f51e0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : smoother_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : transform_listener_impl_6220adb64560
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : planner_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : global_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : transform_listener_impl_5b934de39e20
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : behavior_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : transform_listener_impl_602fe20d2820
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : bt_navigator
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : bt_navigator_navigate_to_pose_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : bt_navigator_navigate_through_poses_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : waypoint_follower
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : velocity_smoother
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : lifecycle_manager_navigation
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : map_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : amcl
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : lifecycle_manager_localization
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : rviz
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : transform_listener_impl_6329e36d5bd0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : rviz_navigation_dialog_action_client
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : transform_listener_impl_6329e3caddc0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : move_group
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : move_group_private_105808675272352
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : transform_listener_impl_603b8080fae0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : transform_listener_impl_603b810a4ce0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : moveit_simple_controller_manager
+subscriber node         : moveit_simple_controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : play_motion2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : _move_group_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : twist_mux
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : twist_marker
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : base_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : base_laser
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : base_sonar_01_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : base_sonar_02_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : base_sonar_03_gazebo_ros_range
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : head_front_camera_frame_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : gazebo_ros_odometry
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : gazebo_ros2_control
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : controller_manager
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : ft_sensor_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : gripper_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : torso_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : head_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : joint_state_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : arm_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : imu_sensor_broadcaster
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : mobile_base_controller
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : controller_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : local_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : transform_listener_impl_5d72919f51e0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : smoother_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : transform_listener_impl_6220adb64560
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : planner_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : global_costmap
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : transform_listener_impl_5b934de39e20
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : behavior_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : transform_listener_impl_602fe20d2820
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : bt_navigator
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : bt_navigator_navigate_to_pose_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : bt_navigator_navigate_through_poses_rclcpp_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : waypoint_follower
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : velocity_smoother
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : lifecycle_manager_navigation
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : map_server
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : amcl
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : lifecycle_manager_localization
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : rviz
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : transform_listener_impl_6329e36d5bd0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : rviz_navigation_dialog_action_client
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : transform_listener_impl_6329e3caddc0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : move_group
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : move_group_private_105808675272352
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : transform_listener_impl_603b8080fae0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : transform_listener_impl_603b810a4ce0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_0_a20f36566acc44e3984335e6b82f6db3
+subscriber node         : moveit_simple_controller_manager
+compatibility status    : OK
+topic [type]            : /plan [nav_msgs/msg/Path]
+publisher node          : planner_server
+subscriber node         : rviz
+compatibility status    : OK
+topic [type]            : /scan_raw [sensor_msgs/msg/LaserScan]
+publisher node          : base_laser
+subscriber node         : local_costmap
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_5d72919f51e0
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_6220adb64560
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_5b934de39e20
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_602fe20d2820
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : bt_navigator
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_6329e36d5bd0
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_6329e3caddc0
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_603b8080fae0
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_603b810a4ce0
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : mobile_base_controller
+subscriber node         : transform_listener_impl_5d72919f51e0
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : mobile_base_controller
+subscriber node         : transform_listener_impl_6220adb64560
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : mobile_base_controller
+subscriber node         : transform_listener_impl_5b934de39e20
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : mobile_base_controller
+subscriber node         : transform_listener_impl_602fe20d2820
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : mobile_base_controller
+subscriber node         : bt_navigator
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : mobile_base_controller
+subscriber node         : transform_listener_impl_6329e36d5bd0
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : mobile_base_controller
+subscriber node         : transform_listener_impl_6329e3caddc0
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : mobile_base_controller
+subscriber node         : transform_listener_impl_603b8080fae0
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : mobile_base_controller
+subscriber node         : transform_listener_impl_603b810a4ce0
+compatibility status    : OK
+topic [type]            : /tf_static [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_5d72919f51e0
+compatibility status    : OK
+topic [type]            : /tf_static [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_6220adb64560
+compatibility status    : OK
+topic [type]            : /tf_static [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_5b934de39e20
+compatibility status    : OK
+topic [type]            : /tf_static [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_602fe20d2820
+compatibility status    : OK
+topic [type]            : /tf_static [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : bt_navigator
+compatibility status    : OK
+topic [type]            : /tf_static [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_6329e36d5bd0
+compatibility status    : OK
+topic [type]            : /tf_static [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_6329e3caddc0
+compatibility status    : OK
+topic [type]            : /tf_static [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_603b8080fae0
+compatibility status    : OK
+topic [type]            : /tf_static [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_603b810a4ce0
+compatibility status    : OK
+topic [type]            : /torso_controller/follow_joint_trajectory/_action/feedback [control_msgs/action/FollowJointTrajectory_FeedbackMessage]
+publisher node          : torso_controller
+subscriber node         : play_motion2
+compatibility status    : OK
+topic [type]            : /torso_controller/follow_joint_trajectory/_action/feedback [control_msgs/action/FollowJointTrajectory_FeedbackMessage]
+publisher node          : torso_controller
+subscriber node         : moveit_simple_controller_manager
+compatibility status    : OK
+topic [type]            : /torso_controller/follow_joint_trajectory/_action/status [action_msgs/msg/GoalStatusArray]
+publisher node          : torso_controller
+subscriber node         : play_motion2
+compatibility status    : OK
+topic [type]            : /torso_controller/follow_joint_trajectory/_action/status [action_msgs/msg/GoalStatusArray]
+publisher node          : torso_controller
+subscriber node         : moveit_simple_controller_manager
+compatibility status    : OK
+topic [type]            : /trajectory_execution_event [std_msgs/msg/String]
+publisher node          : _move_group_node
+subscriber node         : move_group
+compatibility status    : OK
+topic [type]            : /trajectory_execution_event [std_msgs/msg/String]
+publisher node          : _move_group_node
+subscriber node         : move_group
+compatibility status    : OK
+topic [type]            : /waypoints [visualization_msgs/msg/MarkerArray]
+publisher node          : rviz_navigation_dialog_action_client
+subscriber node         : rviz
+compatibility status    : OK
+
+   RMW MIDDLEWARE
+middleware name    : rmw_fastrtps_cpp
+
+   ROS 2 INFORMATION
+distribution name      : iron
+distribution type      : ros2
+distribution status    : end-of-life
+release platforms      : {'rhel': ['9'], 'ubuntu': ['jammy']}
+
+   TOPIC LIST
+topic               : /amcl/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /arm_controller/controller_state
+publisher count     : 1
+subscriber count    : 0
+topic               : /arm_controller/follow_joint_trajectory/_action/feedback
+publisher count     : 1
+subscriber count    : 2
+topic               : /arm_controller/follow_joint_trajectory/_action/status
+publisher count     : 1
+subscriber count    : 2
+topic               : /arm_controller/joint_trajectory
+publisher count     : 0
+subscriber count    : 1
+topic               : /arm_controller/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /attached_collision_object
+publisher count     : 2
+subscriber count    : 1
+topic               : /backup/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /backup/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /base_imu
+publisher count     : 1
+subscriber count    : 0
+topic               : /behavior_server/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /bond
+publisher count     : 4
+subscriber count    : 1
+topic               : /bt_navigator/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /clicked_point
+publisher count     : 1
+subscriber count    : 0
+topic               : /clock
+publisher count     : 1
+subscriber count    : 32
+topic               : /cmd_vel
+publisher count     : 5
+subscriber count    : 1
+topic               : /cmd_vel_nav
+publisher count     : 1
+subscriber count    : 1
+topic               : /collision_object
+publisher count     : 0
+subscriber count    : 1
+topic               : /compute_path_through_poses/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /compute_path_through_poses/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /compute_path_to_pose/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /compute_path_to_pose/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /controller_manager/robot_description
+publisher count     : 0
+subscriber count    : 1
+topic               : /controller_server/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /cost_cloud
+publisher count     : 1
+subscriber count    : 0
+topic               : /diagnostics
+publisher count     : 2
+subscriber count    : 0
+topic               : /display_contacts
+publisher count     : 1
+subscriber count    : 0
+topic               : /display_planned_path
+publisher count     : 1
+subscriber count    : 0
+topic               : /downsampled_costmap
+publisher count     : 0
+subscriber count    : 1
+topic               : /downsampled_costmap_updates
+publisher count     : 0
+subscriber count    : 1
+topic               : /drive_on_heading/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /drive_on_heading/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /dynamic_joint_states
+publisher count     : 1
+subscriber count    : 0
+topic               : /evaluation
+publisher count     : 1
+subscriber count    : 0
+topic               : /execute_trajectory/_action/feedback
+publisher count     : 0
+subscriber count    : 2
+topic               : /execute_trajectory/_action/status
+publisher count     : 0
+subscriber count    : 2
+topic               : /filtered_cloud
+publisher count     : 1
+subscriber count    : 0
+topic               : /follow_gps_waypoints/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /follow_gps_waypoints/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /follow_path/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /follow_path/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /follow_waypoints/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /follow_waypoints/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /ft_sensor_controller/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /ft_sensor_controller/wrench
+publisher count     : 1
+subscriber count    : 0
+topic               : /global_costmap/costmap
+publisher count     : 1
+subscriber count    : 1
+topic               : /global_costmap/costmap_raw
+publisher count     : 1
+subscriber count    : 0
+topic               : /global_costmap/costmap_updates
+publisher count     : 1
+subscriber count    : 1
+topic               : /global_costmap/footprint
+publisher count     : 0
+subscriber count    : 0
+topic               : /global_costmap/global_costmap/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /global_costmap/obstacle_layer
+publisher count     : 1
+subscriber count    : 0
+topic               : /global_costmap/obstacle_layer_raw
+publisher count     : 1
+subscriber count    : 0
+topic               : /global_costmap/obstacle_layer_updates
+publisher count     : 1
+subscriber count    : 0
+topic               : /global_costmap/published_footprint
+publisher count     : 1
+subscriber count    : 0
+topic               : /global_costmap/static_layer
+publisher count     : 1
+subscriber count    : 0
+topic               : /global_costmap/static_layer_raw
+publisher count     : 1
+subscriber count    : 0
+topic               : /global_costmap/static_layer_updates
+publisher count     : 1
+subscriber count    : 0
+topic               : /global_costmap/voxel_marked_cloud
+publisher count     : 0
+subscriber count    : 1
+topic               : /goal_pose
+publisher count     : 0
+subscriber count    : 0
+topic               : /gripper_controller/controller_state
+publisher count     : 1
+subscriber count    : 0
+topic               : /gripper_controller/follow_joint_trajectory/_action/feedback
+publisher count     : 1
+subscriber count    : 1
+topic               : /gripper_controller/follow_joint_trajectory/_action/status
+publisher count     : 1
+subscriber count    : 1
+topic               : /gripper_controller/joint_trajectory
+publisher count     : 0
+subscriber count    : 1
+topic               : /gripper_controller/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /ground_truth_odom
+publisher count     : 1
+subscriber count    : 0
+topic               : /head_controller/controller_state
+publisher count     : 1
+subscriber count    : 0
+topic               : /head_controller/follow_joint_trajectory/_action/feedback
+publisher count     : 1
+subscriber count    : 1
+topic               : /head_controller/follow_joint_trajectory/_action/status
+publisher count     : 1
+subscriber count    : 1
+topic               : /head_controller/joint_trajectory
+publisher count     : 0
+subscriber count    : 1
+topic               : /head_controller/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /head_front_camera/depth_registered/camera_info
+publisher count     : 1
+subscriber count    : 0
+topic               : /head_front_camera/depth_registered/image_raw
+publisher count     : 1
+subscriber count    : 0
+topic               : /head_front_camera/depth_registered/points
+publisher count     : 1
+subscriber count    : 0
+topic               : /head_front_camera/rgb/camera_info
+publisher count     : 1
+subscriber count    : 0
+topic               : /head_front_camera/rgb/image_raw
+publisher count     : 1
+subscriber count    : 0
+topic               : /imu_sensor_broadcaster/imu
+publisher count     : 1
+subscriber count    : 0
+topic               : /imu_sensor_broadcaster/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /initialpose
+publisher count     : 1
+subscriber count    : 0
+topic               : /input_joy/cmd_vel
+publisher count     : 0
+subscriber count    : 1
+topic               : /joint_state_broadcaster/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /joint_states
+publisher count     : 1
+subscriber count    : 3
+topic               : /joy_priority
+publisher count     : 1
+subscriber count    : 0
+topic               : /joy_priority_action/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /joy_priority_action/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /joy_turbo_angular_decrease/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /joy_turbo_angular_decrease/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /joy_turbo_angular_increase/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /joy_turbo_angular_increase/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /joy_turbo_decrease/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /joy_turbo_decrease/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /joy_turbo_increase/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /joy_turbo_increase/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /joy_turbo_reset/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /joy_turbo_reset/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /joy_vel
+publisher count     : 1
+subscriber count    : 1
+topic               : /key_vel
+publisher count     : 0
+subscriber count    : 1
+topic               : /local_costmap/clearing_endpoints
+publisher count     : 1
+subscriber count    : 0
+topic               : /local_costmap/costmap
+publisher count     : 1
+subscriber count    : 1
+topic               : /local_costmap/costmap_raw
+publisher count     : 1
+subscriber count    : 0
+topic               : /local_costmap/costmap_updates
+publisher count     : 1
+subscriber count    : 1
+topic               : /local_costmap/footprint
+publisher count     : 0
+subscriber count    : 1
+topic               : /local_costmap/local_costmap/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /local_costmap/published_footprint
+publisher count     : 1
+subscriber count    : 1
+topic               : /local_costmap/voxel_grid
+publisher count     : 1
+subscriber count    : 0
+topic               : /local_costmap/voxel_layer
+publisher count     : 1
+subscriber count    : 0
+topic               : /local_costmap/voxel_layer_raw
+publisher count     : 1
+subscriber count    : 0
+topic               : /local_costmap/voxel_layer_updates
+publisher count     : 1
+subscriber count    : 0
+topic               : /local_costmap/voxel_marked_cloud
+publisher count     : 0
+subscriber count    : 1
+topic               : /local_plan
+publisher count     : 1
+subscriber count    : 1
+topic               : /map
+publisher count     : 0
+subscriber count    : 1
+topic               : /map_server/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /map_updates
+publisher count     : 0
+subscriber count    : 1
+topic               : /marker
+publisher count     : 2
+subscriber count    : 0
+topic               : /marker_vel
+publisher count     : 0
+subscriber count    : 1
+topic               : /mobile_base/sensors/bumper_pointcloud
+publisher count     : 0
+subscriber count    : 1
+topic               : /mobile_base_controller/cmd_vel_out
+publisher count     : 1
+subscriber count    : 0
+topic               : /mobile_base_controller/cmd_vel_unstamped
+publisher count     : 0
+subscriber count    : 2
+topic               : /mobile_base_controller/odom
+publisher count     : 1
+subscriber count    : 1
+topic               : /mobile_base_controller/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /monitored_planning_scene
+publisher count     : 1
+subscriber count    : 0
+topic               : /motion_plan_request
+publisher count     : 0
+subscriber count    : 0
+topic               : /move_action/_action/feedback
+publisher count     : 0
+subscriber count    : 2
+topic               : /move_action/_action/status
+publisher count     : 0
+subscriber count    : 2
+topic               : /navigate_through_poses/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /navigate_through_poses/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /navigate_to_pose/_action/feedback
+publisher count     : 1
+subscriber count    : 1
+topic               : /navigate_to_pose/_action/status
+publisher count     : 1
+subscriber count    : 1
+topic               : /particle_cloud
+publisher count     : 0
+subscriber count    : 1
+topic               : /pause_navigation
+publisher count     : 0
+subscriber count    : 0
+topic               : /performance_metrics
+publisher count     : 1
+subscriber count    : 0
+topic               : /phone_vel
+publisher count     : 0
+subscriber count    : 1
+topic               : /plan
+publisher count     : 1
+subscriber count    : 1
+topic               : /plan_smoothed
+publisher count     : 1
+subscriber count    : 0
+topic               : /planner_server/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /planning_scene
+publisher count     : 0
+subscriber count    : 1
+topic               : /planning_scene_world
+publisher count     : 0
+subscriber count    : 1
+topic               : /play_motion2/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /play_motion2/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /play_motion2/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /received_global_plan
+publisher count     : 1
+subscriber count    : 0
+topic               : /robot_description
+publisher count     : 1
+subscriber count    : 0
+topic               : /robot_description_semantic
+publisher count     : 1
+subscriber count    : 0
+topic               : /rviz_joy_vel
+publisher count     : 0
+subscriber count    : 0
+topic               : /scan
+publisher count     : 0
+subscriber count    : 1
+topic               : /scan_raw
+publisher count     : 1
+subscriber count    : 1
+topic               : /servoing_cmd_vel
+publisher count     : 0
+subscriber count    : 0
+topic               : /smooth_path/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /smooth_path/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /smoother_server/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /sonar_base
+publisher count     : 3
+subscriber count    : 0
+topic               : /speed_limit
+publisher count     : 0
+subscriber count    : 1
+topic               : /spin/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /spin/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /stop_closing_loop
+publisher count     : 0
+subscriber count    : 0
+topic               : /tab_vel
+publisher count     : 0
+subscriber count    : 0
+topic               : /text_marker
+publisher count     : 1
+subscriber count    : 0
+topic               : /tf
+publisher count     : 2
+subscriber count    : 4
+topic               : /tf_static
+publisher count     : 1
+subscriber count    : 4
+topic               : /throttle_filtering_points/filtered_points
+publisher count     : 0
+subscriber count    : 1
+topic               : /torso_controller/controller_state
+publisher count     : 1
+subscriber count    : 0
+topic               : /torso_controller/follow_joint_trajectory/_action/feedback
+publisher count     : 1
+subscriber count    : 2
+topic               : /torso_controller/follow_joint_trajectory/_action/status
+publisher count     : 1
+subscriber count    : 2
+topic               : /torso_controller/joint_trajectory
+publisher count     : 0
+subscriber count    : 1
+topic               : /torso_controller/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /trajectory_execution_event
+publisher count     : 2
+subscriber count    : 1
+topic               : /transformed_global_plan
+publisher count     : 1
+subscriber count    : 0
+topic               : /velocity_smoother/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /wait/_action/feedback
+publisher count     : 1
+subscriber count    : 0
+topic               : /wait/_action/status
+publisher count     : 1
+subscriber count    : 0
+topic               : /waypoint_follower/transition_event
+publisher count     : 1
+subscriber count    : 0
+topic               : /waypoints
+publisher count     : 1
+subscriber count    : 1

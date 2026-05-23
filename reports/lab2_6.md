@@ -1,0 +1,5 @@
+ros2 service call /get_entity_state gazebo_msgs/srv/GetEntityState "{'name': 'green_cube_3', 'reference_frame':'wrist_ft_link'}"
+requester: making request: gazebo_msgs.srv.GetEntityState_Request(name='green_cube_3', reference_frame='wrist_ft_link')
+
+response:
+gazebo_msgs.srv.GetEntityState_Response(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=1778, nanosec=851000000), frame_id='wrist_ft_link'), state=gazebo_msgs.msg.EntityState(name='', pose=geometry_msgs.msg.Pose(position=geometry_msgs.msg.Point(x=0.012902087870531594, y=0.0011515592687522738, z=0.2135081180362328), orientation=geometry_msgs.msg.Quaternion(x=0.1298898563240893, y=-0.9861713786687306, z=-0.08477616196198601, w=0.05837499020743234)), twist=geometry_msgs.msg.Twist(linear=geometry_msgs.msg.Vector3(x=0.0037897443175627624, y=-0.02086857732331868, z=-0.0001175846414293235), angular=geometry_msgs.msg.Vector3(x=-3.337235268543893e-05, y=-3.2595868692507266e-05, z=-5.085975764038102e-06)), reference_frame=''), success=True)
